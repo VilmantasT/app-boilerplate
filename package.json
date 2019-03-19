@@ -1,0 +1,30 @@
+{
+  "name": "app-boilerplate",
+  "version": "1.0.0",
+  "description": "boileplate html and css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://saulyz@bitbucket.org/saulyz/app-boilerplate.git"
+  },
+  "keywords": [
+    "html",
+    "scss",
+    "accessibility"
+  ],
+  "author": "Saulius Vikerta",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/saulyz/app-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "chokidar-cli": "^1.2.1",
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^6.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
