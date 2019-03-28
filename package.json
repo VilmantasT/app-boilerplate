@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://saulyz@bitbucket.org/saulyz/app-boilerplate.git"
+    "url": "git+https://VilmantasT@bitbucket.org/VilmantasT/app-boilerplate-homework.git"
   },
   "keywords": [
     "html",
     "scss",
     "accessibility"
   ],
-  "author": "Saulius Vikerta",
+  "author": "VilmantasT",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/saulyz/app-boilerplate#readme",
+  "homepage": "https://bitbucket.org/VilmantasT/app-boilerplate-homework#readme",
   "devDependencies": {
     "autoprefixer": "^9.4.7",
     "browser-sync": "^2.26.3",
