@@ -7,7 +7,7 @@
     color: $color__text-body;
     @include input-border();
     @include focusable();
-    
+
     &::placeholder {
         color: lighten($color__text-muted, 10%);
     }
@@ -18,7 +18,6 @@
 }
 
 .field {
-
     &.disabled .input {
         background-color: darken($color__white, 10%);
         @include input-border(disabled);
@@ -28,7 +27,6 @@
 
 .control {
     // Arrangement for having icons in input field
-    
     $icon-sides: left, right;
     @each $side in $icon-sides {
         &--has-icon-#{$side} {
@@ -40,7 +38,7 @@
 
     &__icon {
         position: absolute;
-        padding: .8rem;
+        padding: 0.8rem;
         color: $color__text-muted;
     }
 }
