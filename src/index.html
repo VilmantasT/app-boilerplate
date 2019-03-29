@@ -17,7 +17,21 @@
   <body>
     <div id="app" class="page-wrapper">
       <header class="page-header">
-        <div class="container"><div class="content-wrapper">header</div></div>
+        <div class="container">
+          <div class="content-wrapper">
+            header
+            <div class="field ">
+              <label class="label" for="field-search"></label>
+              <div class="control block-centered">
+                <input
+                  class="input input-search"
+                  type="text"
+                  id="field-search"
+                /><button class="button-search" type="submit">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </header>
 
       <div class="page-content container">
@@ -101,8 +115,8 @@
                 <div class="control control--radio">
                   <input class="radio" type="radio" id="field-radio1" />
                   <label class="label" for="field-radio1">Some option</label>
-                  <p class="help error">this field has help text</p>
                 </div>
+                <p class="help error">this field has help text</p>
               </div>
               <div class="field"></div>
               <div class="field disabled">
@@ -112,13 +126,13 @@
                     checked
                     class="radio"
                     type="radio"
-                    id="field-radio3"
+                    id="field-radio2"
                   />
-                  <label class="label" for="field-radio3"
+                  <label class="label" for="field-radio2"
                     >Disabled checked option</label
                   >
-                  <p class="help error">this field has help text</p>
                 </div>
+                <p class="help error">this field has help text</p>
               </div>
               <div class="field disabled">
                 <label class="label" for="field-demo-2"

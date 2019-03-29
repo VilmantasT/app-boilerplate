@@ -10,8 +10,7 @@
   border: 1px solid $color__input-border;
   @if $state == "disabled" {
     border-color: lighten($color__text-muted, 30%);
-  }
-  @elseif $state == 'radio' {
+  } @else if $state == "radio" {
     border: 1px solid $color__input-border;
     border-radius: 50%;
   }

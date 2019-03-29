@@ -51,7 +51,7 @@
     cursor: pointer;
 
     &:checked + .label::after {
-      content: $icon__check;
+      content: $icon__radio;
       font-family: $font-family__icons;
       background-color: $background__check;
     }
