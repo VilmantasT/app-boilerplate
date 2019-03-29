@@ -7,12 +7,15 @@
 }
 
 @mixin input-border($state: normal) {
-  border: 1px solid $color__input-border;
   @if $state == "disabled" {
     border-color: lighten($color__text-muted, 30%);
   } @else if $state == "radio" {
     border: 1px solid $color__input-border;
     border-radius: 50%;
+  } @else if $state == "search" {
+    border: 1px solid $color__input-border;
+  } @else {
+    border: 1px solid $color__input-border--search;
   }
 }
 
