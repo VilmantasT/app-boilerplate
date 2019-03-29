@@ -1,23 +1,25 @@
 // Colorings for draft purposes
 
 #app {
-    background: #eff6fc;
+  // background: #eff6fc;
+  background: #dcfbd7;
 }
 
 .page-header {
-    background: #d9e9f7;
+  @include background-gradient(#8ddf7f, #3cbe92);
 }
 
 .aside {
-    .container {
-        background: white;
-    }
+  .container {
+    background: white;
+  }
 }
 
 .main {
-    .container {}
+  .container {
+  }
 }
 
 .page-footer {
-    background: #d9e9f7;
+  @include background-gradient(#8ddf7f, #3cbe92);
 }

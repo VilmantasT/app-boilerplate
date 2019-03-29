@@ -2,8 +2,11 @@
   outline: 0 !important; // overiding reboot
 }
 
-@mixin focusable-active {
+@mixin focusable-active($status: normal) {
   box-shadow: 0 0 0 2px rgba($color__input-border, 0.4);
+  @if $status == "search" {
+    box-shadow: 0 0 0 5px rgba($color__input-border--search, 0.4);
+  }
 }
 
 @mixin input-border($state: normal) {
@@ -13,9 +16,10 @@
     border: 1px solid $color__input-border;
     border-radius: 50%;
   } @else if $state == "search" {
-    border: 1px solid $color__input-border;
-  } @else {
     border: 1px solid $color__input-border--search;
+    border-radius: 0.5rem;
+  } @else {
+    border: 1px solid $color__input-border;
   }
 }
 

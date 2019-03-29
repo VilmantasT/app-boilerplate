@@ -27,8 +27,13 @@
 
 .input-search {
   padding: $padding__input;
-  background-color: $background__search;
-  width: 20%;
+  background-color: transparent;
+  @include input-border(search);
+  width: 30%;
+
+  &:focus {
+    @include focusable-active(search);
+  }
 }
 
 .control {

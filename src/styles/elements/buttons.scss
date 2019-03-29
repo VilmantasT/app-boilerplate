@@ -46,21 +46,21 @@
   color: $color__white;
   background: $background__button-search;
   margin-left: -68px;
-  border: none;
-  @include input-border();
+  @include input-border(search);
   @include focusable();
 
   &:hover {
-    background: darken($background__button-search, 10%);
+    background: lighten($background__button-search, 10%);
+    color: darken($color__fiord, 20%);
     transition: all 0.5s;
   }
 
   &:focus {
     background: darken($background__button-search, 20%);
-    @include focusable-active();
+    @include focusable-active(search);
   }
 
   &:active {
-    color: darken($color__white, 20%);
+    color: lighten($color__fiord, 20%);
   }
 }
